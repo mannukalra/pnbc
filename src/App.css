@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 33vmin;
   pointer-events: none;
 }
 
@@ -14,8 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +23,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mail-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: #074193;
+  height: 4rem;
+  width: 12rem;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +38,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 3fr 3fr;
+  grid-gap: 0 0.1rem;
+  border-bottom: 0.2rem solid #074193;
+}
+
+.button-color{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: rgb(253, 173, 0);
+}
+
+
+.font-large{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4.8rem;
+  color: #074193;
+  margin-top: -2rem;
+  margin-left: 30rem;
+  text-align: left;
 }
