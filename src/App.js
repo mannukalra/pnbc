@@ -11,9 +11,10 @@ function App() {
 
   const triggerMail = () =>{
     console.log("trigger mail called!")
-    setTimeout(function () {
-      sendMail("This is the a different subject", "And this is the body");
-    }, 0);
+    // setTimeout(function () {
+    //   sendMail("This is the a different subject", "And this is the body");
+    // }, 0);
+    window.sendEmail('subject from react', 'body from app.js react, happy!');
   }
 
   return (

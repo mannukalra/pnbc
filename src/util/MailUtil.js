@@ -89,7 +89,7 @@ module.exports.sendMail = (sub, body) =>{
     message => {
         console.log(message);  
         if(message.includes('OK'))
-            alert("Thanks for connecting, we have recieved your message, we'll get back to you shortly");
+            alert("Thanks for reaching out, we have recieved your message, we'll connect with you shortly");
     });
 
 }
