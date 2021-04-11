@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pnbc/static/css/main.def5a12a.chunk.css",
+    "main.js": "/pnbc/static/js/main.d895f9af.chunk.js",
+    "main.js.map": "/pnbc/static/js/main.d895f9af.chunk.js.map",
+    "runtime-main.js": "/pnbc/static/js/runtime-main.b8ce7817.js",
+    "runtime-main.js.map": "/pnbc/static/js/runtime-main.b8ce7817.js.map",
+    "static/js/2.a24a4f92.chunk.js": "/pnbc/static/js/2.a24a4f92.chunk.js",
+    "static/js/2.a24a4f92.chunk.js.map": "/pnbc/static/js/2.a24a4f92.chunk.js.map",
+    "index.html": "/pnbc/index.html",
+    "static/css/main.def5a12a.chunk.css.map": "/pnbc/static/css/main.def5a12a.chunk.css.map",
+    "static/js/2.a24a4f92.chunk.js.LICENSE.txt": "/pnbc/static/js/2.a24a4f92.chunk.js.LICENSE.txt",
+    "static/media/bg1.70cfef72.jpg": "/pnbc/static/media/bg1.70cfef72.jpg",
+    "static/media/bg2.2fffa33b.jpg": "/pnbc/static/media/bg2.2fffa33b.jpg",
+    "static/media/logo-actual.0ed5ff7e.svg": "/pnbc/static/media/logo-actual.0ed5ff7e.svg",
+    "static/media/logo.6ce24c58.svg": "/pnbc/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8ce7817.js",
+    "static/js/2.a24a4f92.chunk.js",
+    "static/css/main.def5a12a.chunk.css",
+    "static/js/main.d895f9af.chunk.js"
+  ]
+}
