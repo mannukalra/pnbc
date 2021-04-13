@@ -1,0 +1,24 @@
+.input-grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 0 0.5rem;
+}
+
+.label-text{
+    font-size: x-large
+}
+
+.input-text{
+    height: 33px;
+    width: 80%;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.container{
+    background-color: #61DAFB;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

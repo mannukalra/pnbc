@@ -1,0 +1,25 @@
+
+.margin_bottom_huge{
+    margin-bottom: 6rem !important
+}
+
+.sc_section_descr{
+    color: #8f8f8f
+}
+
+.scheme_original .sc_section_inner {
+    color: #8f8f8f;
+}
+
+.sc_item_title {
+    margin: 3rem 0 0;
+    text-align: center;
+}
+
+.sc_item_descr {
+    margin: .25em auto 4.19em;
+    text-align: center;
+    max-width: 720px;
+    font-size: 1.142857em;
+    line-height: 1.55;
+}

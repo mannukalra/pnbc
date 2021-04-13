@@ -29,10 +29,10 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script type="text/javascript">
       function sendEmail(subject, body) {
-        console.log(">>>>>>>>>>>>>>>.from index.html");
+        console.log("sendEmail");
         Email.send({
         SecureToken : "f631efb9-4776-403a-9735-61c0eb4bcc77",
-        To : 'mkmandeepkalra@gmail.com',
+        To : 'tarsem.tps@gmail.com',
         From : "mannu.kalra29@gmail.com",
         Subject: subject ? subject : "Sending Email using javascript with SMTPJS",
         Body: body ? body : "If you are reading this, dont forget to applaud",
@@ -40,9 +40,11 @@
         .then(function (message) {
           console.log(message);  
           if(message.includes('OK'))
-            alert("Thanks for reaching out, we have recieved your message, we'll connect with you shortly")
+            alert("Thanks for reaching out, we have recieved your message. \nWe'll connect with you shortly!")
+          else
+            alert("Some error occured while sending mail, please try later, aplogies for inconvinience.")
         });
-        }
+      }
     </script>
   </head>
   <body>
