@@ -43,10 +43,10 @@ class App extends Component{
           
         </header>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div style={{ width: "82%", height: "112%" }}>
+          <div style={{ width: "82%", minWidth: "432px", height: "112%" }}>
             <div style={{ backgroundImage: `url(${bg2})`, boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)"}}>
               <div className="button-grid">
-                <img src={LogoAct} alt="logo" style={{ marginLeft:"3rem", height: "42px", width: "72px" }} />
+                <img src={LogoAct} alt="logo" style={{ marginLeft:"21%", height: "42px", width: "72px" }} />
                 <button className="button-color">
                   HOME
                 </button>
@@ -73,7 +73,7 @@ class App extends Component{
               <span>---</span>
             </div>
             <br/>
-            <div id="divToFocus" style={{ display: this.state.display, width:"54%"}}>
+            <div id="divToFocus" style={{ display: this.state.display, width:"54%", minWidth: "400px"}}>
               <Connect hideConnect={this.hideConnect}/>
             </div>
             <Bottom />

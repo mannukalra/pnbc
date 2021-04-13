@@ -49,8 +49,9 @@
 
 .button-color{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-  color: rgb(253, 173, 0);
+  font-size: 1rem;
+  color: rgb(253, 152, 0);
+  word-wrap: break-word;
 }
 
 
@@ -59,6 +60,7 @@
   font-size: 4.8rem;
   color: #074193;
   margin-top: -2rem;
-  margin-left: 30rem;
+  margin-left: 40%;
   text-align: left;
+  word-wrap: break-word;
 }
