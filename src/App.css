@@ -42,14 +42,14 @@
 
 .button-grid {
   display: grid;
-  grid-template-columns: 2fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 3.5fr 6fr 6fr 6fr 6fr;
   grid-gap: 0 0.1rem;
   border-bottom: 0.2rem solid #074193;
 }
 
 .button-color{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: .84rem;
   color: rgb(253, 152, 0);
   word-wrap: break-word;
 }
