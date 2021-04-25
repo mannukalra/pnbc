@@ -2,7 +2,7 @@
   "name": "pnbc",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://pnbc.ddns.net/",
+  "homepage": "https://pnbc.ddns.net/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
